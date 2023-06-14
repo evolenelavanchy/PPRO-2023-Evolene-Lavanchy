@@ -1,0 +1,106 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "FamiljenGrotesk-Bold";
+  src: url("../font/FamiljenGrotesk-Bold.woff") format("woff");
+  src: url("../font/FamiljenGrotesk-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FamiljenGrotesk-BoldItalic";
+  src: url("../font/FamiljenGrotesk-BoldItalic.woff") format("woff");
+  src: url("../font/FamiljenGrotesk-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FamiljenGrotesk-Italic";
+  src: url("../font/FamiljenGrotesk-Italic.woff") format("woff");
+  src: url("../font/FamiljenGrotesk-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FamiljenGrotesk-Medium";
+  src: url("../font/FamiljenGrotesk-Medium.woff") format("woff");
+  src: url("../font/FamiljenGrotesk-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FamiljenGrotesk-Regular";
+  src: url("../font/FamiljenGrotesk-Regular.woff") format("woff");
+  src: url("../font/FamiljenGrotesk-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FamiljenGrotesk-SemiBold";
+  src: url("../font/FamiljenGrotesk-SemiBold.woff") format("woff");
+  src: url("../font/FamiljenGrotesk-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FamiljenGrotesk-SemiBoldItalic";
+  src: url("../font/FamiljenGrotesk-SemiBoldItalic.woff") format("woff");
+  src: url("../font/FamiljenGrotesk-SemiBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FamiljenGrotesk-Variable";
+  src: url("../font/FamiljenGrotesk-Variable.woff") format("woff");
+  src: url("../font/FamiljenGrotesk-Variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FamiljenGrotesk-VariableItalic";
+  src: url("../font/FamiljenGrotesk-VariableItalic.woff") format("woff");
+  src: url("../font/FamiljenGrotesk-VariableItalic.woff2") format("woff2");
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-family: FamiljenGrotesk-Medium;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+/* ====================================
+// base rules
+// ==================================== */
