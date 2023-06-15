@@ -12,33 +12,59 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-6">
-            <h1><img src="img/logo-eikonica-header.svg" alt="" /></h1>
-          </div>
-          <div class="col-1">
-            <nav href="#about-programme">PROGRAMME</nav>
-          </div>
-          <div class="col-1">
-            <nav href="#about-expos">EXPOS</nav>
-          </div>
-          <div class="col-1">
-            <nav href="#about-infos">INFOS</nav>
-          </div>
-          <div class="col-1">
-            <nav href="#about-partenaires">PARTENAIRES</nav>
-          </div>
-          <div class="col-1">
-            <nav href="#about-contact">CONTACT</nav>
-          </div>
-          <div class="col-1">
-            <nav href="#about-fr/de">FR/DE</nav>
+      <!-- <div class="contents-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <h1><img src="img/logo-eikonica-header.svg" alt="" /></h1>
+            </div>
+            <div class="col-1">
+              <a href="#about-programme">PROGRAMME</a>
+            </div>
+            <div class="col-1">
+              <a href="#about-expos">EXPOS</a>
+            </div>
+            <div class="col-1">
+              <a href="#about-infos">INFOS</a>
+            </div>
+            <div class="col-1">
+              <a href="#about-partenaires">PARTENAIRES</a>
+            </div>
+            <div class="col-1">
+              <a href="#about-contact">CONTACT</a>
+            </div>
+            <div class="col-1">
+              <a href="#about-fr/de">FR/DE</a>
+            </div>
           </div>
         </div>
-      </div>
+      </div> -->
+      <nav>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 nav-content">
+              <div class="header-logo">
+                <img
+                  class="col-6"
+                  src="img/logo-eikonica-header.svg"
+                  alt="Le logo eikonica"
+                />
+              </div>
+              <div class="nav-links">
+                <a href="#about-programme">PROGRAMME</a>
+                <a href="#about-expos">EXPOS</a>
+                <a href="#about-infos">INFOS</a>
+                <a href="#about-partenaires">PARTENAIRES</a>
+                <a href="#about-contact">CONTACT</a>
+                <a href="#">FR/DE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
       <hr />
-      <div class="carousel">
+      <div class="header-carousel">
         <div class="container">
           <div class="row">
             <div class="col">
@@ -90,7 +116,7 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <h3>PROGRAMME</h3>
+                <h3 id="about-programme">PROGRAMME</h3>
                 <i class="fa-solid fa-chevron-right"></i>
               </div>
             </div>
@@ -99,7 +125,7 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <h3>EXPOSITIONS</h3>
+                <h3 id="about-expos">EXPOSITIONS</h3>
                 <i class="fa-solid fa-chevron-right"></i>
               </div>
             </div>
@@ -108,7 +134,7 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <h3>INFOS PRATIQUES</h3>
+                <h3 id="about-infos">INFOS PRATIQUES</h3>
                 <i class="fa-solid fa-chevron-right"></i>
               </div>
             </div>
@@ -117,7 +143,7 @@
       </div>
     </main>
     <footer>
-      <div class="carousel-partenaires">
+      <div id="about-partenaires" class="carousel-partenaires">
         <hr />
         <div class="container">
           <div class="row">
@@ -134,7 +160,7 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-4">
+          <div id="about-contact" class="col-4">
             <nav>INSTAGRAM</nav>
           </div>
           <div class="col-4">

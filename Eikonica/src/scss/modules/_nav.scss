@@ -1,0 +1,22 @@
+nav {
+  img {
+    height: 40px;
+  }
+}
+
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  a {
+    padding: 0 8px;
+  }
+}
