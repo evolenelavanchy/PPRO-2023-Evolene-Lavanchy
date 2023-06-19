@@ -1,0 +1,43 @@
+.carousel-eikonica .carousel-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.carousel-eikonica .carousel {
+  display: flex;
+  width: 300%;
+  animation: carousel-animation 11s infinite linear;
+  white-space: nowrap;
+}
+
+.carousel-eikonica .carousel-inner {
+  display: flex;
+  width: 100%;
+}
+
+.carousel-eikonica .carousel-item {
+  flex: 0 0 calc(33.33% - 300px);
+  margin-right: 300px;
+}
+
+.carousel-eikonica .carousel-item img {
+  width: 100%;
+}
+
+@keyframes carousel-animation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% + (33.33% - 10px)));
+  }
+}
+
+.carousel-item p {
+  font-size: 200px;
+}
