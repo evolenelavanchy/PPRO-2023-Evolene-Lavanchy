@@ -26,16 +26,11 @@
   padding-bottom: 40px;
 }
 
-.accordion-header::after {
-  content: "\25BC"; /* Flèche vers le bas */
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
+.fa-chevron-right:hover {
+  transform: rotate(90deg);
   transition: transform 0.3s;
 }
-
-.accordion-item.active .accordion-header::after {
+s .accordion-item.active .accordion-header i::after {
   transform: translateY(-50%) rotate(180deg);
 }
 
@@ -108,8 +103,11 @@ h5 {
   margin-right: 350px;
 }
 
-.accordion-content {
-  a:hover {
-    color: rgb(0, 0, 0);
-  }
+.accordion-content a:hover {
+  color: rgb(0, 0, 0);
+}
+
+#arrow-programme {
+  font-size: 60px;
+  // margin-right: 100px;
 }
