@@ -1,4 +1,4 @@
-.carousel-eikonica .carousel-container {
+.carousel-container-eikonica {
   position: relative;
   width: 100%;
   height: auto;
@@ -8,24 +8,24 @@
   padding-bottom: 50px;
 }
 
-.carousel-eikonica .carousel {
+.carousel-eikonica {
   display: flex;
   width: 300%;
   animation: carousel-animation 11s infinite linear;
   white-space: nowrap;
 }
 
-.carousel-eikonica .carousel-inner {
+.carousel-inner-eikonica {
   display: flex;
   width: 100%;
 }
 
-.carousel-eikonica .carousel-item {
+.carousel-item-eikonica {
   flex: 0 0 calc(33.33% - 300px);
   margin-right: 300px;
 }
 
-.carousel-eikonica .carousel-item img {
+.carousel-item-eikonica img {
   width: 100%;
 }
 
@@ -38,6 +38,33 @@
   }
 }
 
-.carousel-item p {
-  font-size: 200px;
-}
+// .carousel-partenaires-container {
+//   width: 100%;
+//   overflow: hidden;
+//   margin-top: 20px;
+// }
+
+// .carousel-partenaires {
+//   display: flex;
+//   width: 100%; /* 6 éléments * 100% */
+//   animation: carousel-animation 6s infinite linear;
+// }
+
+// .carousel-inner-partenaires {
+//   display: flex;
+//   justify-content: space-between; /* Ou une autre valeur selon vos préférences */
+//   width: 100%;
+// }
+
+// .carousel-item-partenaires {
+//   flex: 0 0 16.66%; /* 100% divisé par 6 éléments */
+// }
+
+// @keyframes carousel-animation {
+//   0% {
+//     transform: translateX(0);
+//   }
+//   100% {
+//     transform: translateX(-100%);
+//   }
+// }

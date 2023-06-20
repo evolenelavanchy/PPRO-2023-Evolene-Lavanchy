@@ -1,6 +1,6 @@
 nav {
   img {
-    height: 40px;
+    height: 70px;
   }
 }
 
@@ -9,6 +9,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-left: 70px;
 }
 
 .nav-links {
@@ -16,8 +17,9 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-right: 50px;
   a {
-    padding: 0 8px;
+    padding: 20px;
   }
 }
 

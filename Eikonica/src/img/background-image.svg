@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="4456px" viewBox="0 0 1440 4456" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Medium Copy 2@1x</title>
+    <defs>
+        <radialGradient cx="50%" cy="13.5344279%" fx="50%" fy="13.5344279%" r="245.714944%" gradientTransform="translate(0.500000,0.135344),scale(1.000000,0.323160),rotate(90.000000),translate(-0.500000,-0.135344)" id="radialGradient-1">
+            <stop stop-color="#F1F2FD" offset="0%"></stop>
+            <stop stop-color="#DEE0FA" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Medium-Copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1440" height="4456"></rect>
+        <rect id="Rectangle" fill="url(#radialGradient-1)" x="0" y="0" width="1440" height="4456"></rect>
+    </g>
+</svg>
