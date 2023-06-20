@@ -43,8 +43,73 @@
   padding: 10px;
   display: none;
   background-color: white;
+  padding-left: 200px;
 }
 
 .accordion-content.show {
   display: block;
+}
+
+.section-accordion h1 {
+  font-family: FamiljenGrotesk-Semibold;
+  font-size: 50px;
+  margin-left: 200px;
+  margin-top: 140px;
+  margin-bottom: 50px;
+}
+
+.section-accordion p {
+  align-items: flex-start;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 25px;
+  margin-top: 70px;
+  line-height: 50px;
+}
+
+.section-accordion h3 {
+  margin-left: 500px;
+  margin-top: -90px;
+  font-size: 28px;
+  font-family: FamiljenGrotesk-Regular;
+}
+
+.last-p {
+  padding-bottom: 150px;
+}
+
+h4 {
+  font-size: 25px;
+  font-family: FamiljenGrotesk-Bold;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+i {
+  font-size: 25px;
+  font-family: FamiljenGrotesk-BoldItalic;
+  margin-left: 200px;
+}
+
+.content-expositions p {
+  text-align: justify;
+  margin-right: 350px;
+}
+
+h5 {
+  font-size: 25px;
+  font-family: FamiljenGrotesk-Bold;
+  margin-top: 70px;
+  margin-left: 200px;
+}
+
+.content-infos p {
+  text-align: justify;
+  margin-right: 350px;
+}
+
+.accordion-content {
+  a:hover {
+    color: rgb(0, 0, 0);
+  }
 }

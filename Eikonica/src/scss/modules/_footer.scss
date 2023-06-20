@@ -10,7 +10,7 @@
 }
 
 .footer-copyright {
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 .footer-copyright p {
@@ -21,4 +21,15 @@
 
 a {
   text-decoration: none;
+}
+
+.footer-copyright {
+  hr {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-top: 1px solid rgb(255, 255, 255);
+    margin-bottom: 40px;
+  }
 }
