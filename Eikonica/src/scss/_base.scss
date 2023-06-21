@@ -83,13 +83,35 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   font-family: FamiljenGrotesk-Medium;
-  background-color: #e3e0f0;
+  // background-color: #e3e0f0;
+  background: linear-gradient(to bottom, #e3e0f0, #c9c5e3);
   overflow-x: hidden;
 
   font-size: 1rem;
   line-height: 1.25;
 }
 
+#button-fixe {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  color: white;
+  background-color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 55px;
+  border-color: black;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+#button-fixe a {
+  font-family: FamiljenGrotesk-Medium;
+  font-size: 25px;
+}
 a {
   color: inherit;
 }
