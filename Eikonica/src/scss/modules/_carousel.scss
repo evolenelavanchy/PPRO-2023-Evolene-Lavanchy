@@ -38,33 +38,12 @@
   }
 }
 
-// .carousel-partenaires-container {
-//   width: 100%;
-//   overflow: hidden;
-//   margin-top: 20px;
-// }
+.date {
+  font-size: 300px;
+  font-family: FamiljenGrotesk-Semibold;
+}
 
-// .carousel-partenaires {
-//   display: flex;
-//   width: 100%; /* 6 éléments * 100% */
-//   animation: carousel-animation 6s infinite linear;
-// }
-
-// .carousel-inner-partenaires {
-//   display: flex;
-//   justify-content: space-between; /* Ou une autre valeur selon vos préférences */
-//   width: 100%;
-// }
-
-// .carousel-item-partenaires {
-//   flex: 0 0 16.66%; /* 100% divisé par 6 éléments */
-// }
-
-// @keyframes carousel-animation {
-//   0% {
-//     transform: translateX(0);
-//   }
-//   100% {
-//     transform: translateX(-100%);
-//   }
-// }
+.logo-svg {
+  width: 50px;
+  height: 50px;
+}

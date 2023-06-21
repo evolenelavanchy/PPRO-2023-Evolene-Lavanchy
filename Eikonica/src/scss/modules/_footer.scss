@@ -1,12 +1,7 @@
-.carousel-partenaires {
-  padding-top: 58px;
-  padding-bottom: 58px;
-  background-color: white;
-}
-
 .footer-contact {
   margin-top: 77px;
   text-align: center;
+  color: #d9d2f5;
 }
 
 .footer-copyright {
@@ -21,6 +16,13 @@
 
 a {
   text-decoration: none;
+}
+
+footer {
+  background-color: black;
+}
+footer a:hover {
+  color: white;
 }
 
 .footer-copyright {
