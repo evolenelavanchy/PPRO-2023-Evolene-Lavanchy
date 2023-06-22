@@ -84,7 +84,6 @@ body {
   text-rendering: optimizeLegibility;
   font-family: FamiljenGrotesk-Medium;
   background-color: #d9d2f5;
-  // background: linear-gradient(to bottom, #e3e0f0, #c9c5e3);
   overflow-x: hidden;
   margin: 0;
 
@@ -123,6 +122,7 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+  object-fit: contain;
 }
 
 // .row > .col,

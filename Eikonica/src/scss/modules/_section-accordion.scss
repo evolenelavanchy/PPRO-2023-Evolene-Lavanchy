@@ -109,7 +109,6 @@ h5 {
 
 #arrow-programme {
   font-size: 60px;
-  // margin-right: 100px;
 }
 
 .accordion-container {
@@ -139,7 +138,6 @@ h5 {
 .video-container {
   position: relative;
   width: 100%;
-
   overflow: hidden;
 }
 
@@ -154,13 +152,13 @@ h5 {
   height: auto;
 }
 
-.carousel-partenaires {
-  width: 100px;
-  padding-left: 400px;
+.full-width-video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
-.carousel-partenaires {
-  img {
-    height: 70px;
-  }
+.icone-location {
+  display: flex;
+  justify-content: end;
 }
